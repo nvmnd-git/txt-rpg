@@ -11,7 +11,7 @@ while running:
         screen.fill((100,150,200))
 
         #screen shows on the surface, RGB, screen position, dimensions
-        pygame.draw.rect(screen, (0, 225, 0), (20, 400, 200, 60))
+        pygame.draw.rect(screen, (225, 0, 0), (20, 400, 200, 60))
         
         pygame.display.flip()
         if event.type == pygame.QUIT:
